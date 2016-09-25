@@ -1,0 +1,105 @@
+[
+  {
+    "key": 457993650, 
+    "kind": "ERROR", 
+    "hash": 877198411, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.onCreate_222222222222(Bundle)"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.onCreate_222222222222(android.os.Bundle):void.c254b0a20b9227734b33447f4b89d9bc"
+          }
+        ], 
+        "line_number": 31, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure onCreate_222222222222(...)", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 32, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 17, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_end"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 18, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "return from a call to Object MainActivity.source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 32, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "NULL_DEREFERENCE", 
+    "file": "app/src/main/java/infer/other/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "bucket", 
+        "value": "B1"
+      }, 
+      {
+        "tag": "line", 
+        "value": "32"
+      }, 
+      {
+        "tag": "value", 
+        "value": "source()"
+      }
+    ], 
+    "line": 32, 
+    "procedure_id": "infer.other.MainActivity.onCreate_222222222222(android.os.Bundle):void.c254b0a20b9227734b33447f4b89d9bc", 
+    "procedure": "void MainActivity.onCreate_222222222222(Bundle)", 
+    "qualifier": "object returned by source() could be null and is dereferenced at line 32"
+  }
+]

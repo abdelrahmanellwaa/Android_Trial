@@ -1,0 +1,8 @@
+Found 1 issue
+
+app/src/main/java/infer/other/MainActivity.java:32: error: NULL_DEREFERENCE
+  object returned by source() could be null and is dereferenced at line 32
+
+Summary of the reports
+
+  NULL_DEREFERENCE: 1
