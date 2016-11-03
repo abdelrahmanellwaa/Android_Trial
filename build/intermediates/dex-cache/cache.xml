@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="/Users/abdelrahman/gain/android_trial/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/abdelrahman/gain/android_trial/app/build/intermediates/pre-dexed/debug/classes-84250650f03c56d5ec5726bf646c4107f8b4c7f5.jar" />
+    </item>
+    <item
         jar="/Users/abdelrahman/Downloads/infer-master/examples/android_hello/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
         jumboMode="false"
         revision="24.0.2"
@@ -21,6 +28,20 @@
         revision="24.0.2"
         sha1="d84409890828e07d344a3b9b1da545dba9897b51">
         <dex dex="/Users/abdelrahman/Downloads/infer-master/examples/android_hello/app/build/intermediates/pre-dexed/debug/classes-33800551b31b6cd79e315dccb13427223d19e116.jar" />
+    </item>
+    <item
+        jar="/Users/abdelrahman/gain/android_trial/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/abdelrahman/gain/android_trial/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-f7706aa1a4440d3dfb1c2351d7ebc6bc933fff62.jar" />
+    </item>
+    <item
+        jar="/Users/abdelrahman/gain/android_trial/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/abdelrahman/gain/android_trial/app/build/intermediates/pre-dexed/debug/classes-c1766f3e94ef4f1a0002a569f9fb711f4189d536.jar" />
     </item>
     <item
         jar="/Users/abdelrahman/Downloads/infer-master/examples/android_hello/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
