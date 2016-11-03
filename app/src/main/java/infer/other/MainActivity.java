@@ -30,6 +30,10 @@ protected void onCreate_b37(Bundle savedInstanceState) {
     source().toString();
   }
 
+protected void onCreate_b38(Bundle savedInstanceState) {
+    source().toString();
+  }
+
 protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
   }
