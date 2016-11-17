@@ -1,0 +1,6 @@
+/Users/abdelrahman/gain/android_trial/app/src/main/java/infer/inferandroidexample/Generated.java
+/Users/abdelrahman/gain/android_trial/app/src/main/java/infer/inferandroidexample/MainActivity.java
+/Users/abdelrahman/gain/android_trial/app/src/main/java/infer/other/MainActivity.java
+/Users/abdelrahman/gain/android_trial/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java
+/Users/abdelrahman/gain/android_trial/app/build/generated/source/r/debug/infer/inferandroidexample/R.java
+/Users/abdelrahman/gain/android_trial/app/build/generated/source/buildConfig/debug/infer/inferandroidexample/BuildConfig.java

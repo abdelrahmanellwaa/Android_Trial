@@ -1,8 +1,24 @@
-Found 1 issue
+Found 6 issues
+
+app/src/main/java/infer/inferandroidexample/MainActivity.java:29: error: NULL_DEREFERENCE
+  object s last assigned on line 28 could be null and is dereferenced at line 29
+
+app/src/main/java/infer/inferandroidexample/MainActivity.java:46: error: RESOURCE_LEAK
+   resource of type java.io.FileOutputStream acquired to fis by call to FileOutputStream(...) at line 43 is not released after line 46
+
+app/src/main/java/infer/inferandroidexample/MainActivity.java:78: error: NULL_DEREFERENCE
+  object o last assigned on line 77 could be null and is dereferenced at line 78
+
+app/src/main/java/infer/other/MainActivity.java:23: error: NULL_DEREFERENCE
+  object returned by source() could be null and is dereferenced at line 23
+
+app/src/main/java/infer/other/MainActivity.java:27: error: NULL_DEREFERENCE
+  object returned by source() could be null and is dereferenced at line 27
 
 app/src/main/java/infer/other/MainActivity.java:32: error: NULL_DEREFERENCE
   object returned by source() could be null and is dereferenced at line 32
 
 Summary of the reports
 
-  NULL_DEREFERENCE: 1
+  NULL_DEREFERENCE: 5
+     RESOURCE_LEAK: 1

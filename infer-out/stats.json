@@ -1,15 +1,16 @@
 {
   "int": {
-    "files": 5, 
+    "files": 6, 
     "procedures": 0, 
-    "NULL_DEREFERENCE": 1, 
+    "NULL_DEREFERENCE": 5, 
+    "RESOURCE_LEAK": 1, 
     "lines": 0
   }, 
   "float": {
-    "reporting_time": 0.021476030349731445, 
-    "analysis_time": 0.1549689769744873, 
+    "reporting_time": 0.028149127960205078, 
+    "analysis_time": 0.33190417289733887, 
     "capture_time": 0.0, 
-    "makefile_generation_time": 0.03725409507751465
+    "makefile_generation_time": 0.017867088317871094
   }, 
   "normal": {
     "infer_version": "unknown", 

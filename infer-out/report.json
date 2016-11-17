@@ -1,5 +1,538 @@
 [
   {
+    "key": 576353702, 
+    "kind": "ERROR", 
+    "hash": 492005362, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.onCreate(Bundle)"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.MainActivity.onCreate(android.os.Bundle):void.38be1b757ab911cbd85b3d2a227b671d"
+          }
+        ], 
+        "line_number": 26, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "start of procedure onCreate(...)", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 27, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 28, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "String MainActivity.getDay()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.MainActivity.getDay():java.lang.String.cd5f1b7268af5667101f36cd6229a434"
+          }
+        ], 
+        "line_number": 33, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "start of procedure getDay()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "condition"
+          }, 
+          {
+            "tag": "branch", 
+            "value": "false"
+          }
+        ], 
+        "line_number": 34, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "Taking false branch", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_end"
+          }, 
+          {
+            "tag": "name", 
+            "value": "String MainActivity.getDay()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.MainActivity.getDay():java.lang.String.cd5f1b7268af5667101f36cd6229a434"
+          }
+        ], 
+        "line_number": 36, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "return from a call to String MainActivity.getDay()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 29, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "NULL_DEREFERENCE", 
+    "file": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "bucket", 
+        "value": "B1"
+      }, 
+      {
+        "tag": "line", 
+        "value": "29"
+      }, 
+      {
+        "tag": "assigned_line", 
+        "value": "28"
+      }, 
+      {
+        "tag": "value", 
+        "value": "s"
+      }
+    ], 
+    "line": 29, 
+    "procedure_id": "infer.inferandroidexample.MainActivity.onCreate(android.os.Bundle):void.38be1b757ab911cbd85b3d2a227b671d", 
+    "procedure": "void MainActivity.onCreate(Bundle)", 
+    "qualifier": "object s last assigned on line 28 could be null and is dereferenced at line 29"
+  }, 
+  {
+    "key": 589452476, 
+    "kind": "ERROR", 
+    "hash": 446624650, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.writeToFile()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.MainActivity.writeToFile():void.f2b6f4f1cf944e34454aa137e7a4a734"
+          }
+        ], 
+        "line_number": 39, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "start of procedure writeToFile()", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 40, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 43, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "exception"
+          }, 
+          {
+            "tag": "name", 
+            "value": "java.io.IOException"
+          }
+        ], 
+        "line_number": 44, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "exception java.io.IOException", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 46, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "RESOURCE_LEAK", 
+    "file": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "line", 
+        "value": "46"
+      }, 
+      {
+        "tag": "call_procedure", 
+        "value": "FileOutputStream(...)"
+      }, 
+      {
+        "tag": "call_line", 
+        "value": "43"
+      }, 
+      {
+        "tag": "value", 
+        "value": "fis"
+      }
+    ], 
+    "line": 46, 
+    "procedure_id": "infer.inferandroidexample.MainActivity.writeToFile():void.f2b6f4f1cf944e34454aa137e7a4a734", 
+    "procedure": "void MainActivity.writeToFile()", 
+    "qualifier": " resource of type java.io.FileOutputStream acquired to fis by call to FileOutputStream(...) at line 43 is not released after line 46"
+  }, 
+  {
+    "key": 371115116, 
+    "kind": "ERROR", 
+    "hash": 962733366, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.inferShouldNotReport()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.MainActivity.inferShouldNotReport():void.01ebc4f81d7e4347e8d367078ec8780c"
+          }
+        ], 
+        "line_number": 73, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "start of procedure inferShouldNotReport()", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 77, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object Generated.returnsNull()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.Generated.returnsNull():java.lang.Object.bf37b7abb54d02192522a96fc5e91893"
+          }
+        ], 
+        "line_number": 16, 
+        "filename": "app/src/main/java/infer/inferandroidexample/Generated.java", 
+        "description": "start of procedure returnsNull()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_end"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object Generated.returnsNull()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.inferandroidexample.Generated.returnsNull():java.lang.Object.bf37b7abb54d02192522a96fc5e91893"
+          }
+        ], 
+        "line_number": 17, 
+        "filename": "app/src/main/java/infer/inferandroidexample/Generated.java", 
+        "description": "return from a call to Object Generated.returnsNull()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 78, 
+        "filename": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "NULL_DEREFERENCE", 
+    "file": "app/src/main/java/infer/inferandroidexample/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "bucket", 
+        "value": "B1"
+      }, 
+      {
+        "tag": "line", 
+        "value": "78"
+      }, 
+      {
+        "tag": "assigned_line", 
+        "value": "77"
+      }, 
+      {
+        "tag": "value", 
+        "value": "o"
+      }
+    ], 
+    "line": 78, 
+    "procedure_id": "infer.inferandroidexample.MainActivity.inferShouldNotReport():void.01ebc4f81d7e4347e8d367078ec8780c", 
+    "procedure": "void MainActivity.inferShouldNotReport()", 
+    "qualifier": "object o last assigned on line 77 could be null and is dereferenced at line 78"
+  }, 
+  {
+    "key": 457993650, 
+    "kind": "ERROR", 
+    "hash": 897944646, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.onCreate(Bundle)"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.onCreate(android.os.Bundle):void.fca79a92cae6cb5680c8e0e034b3452e"
+          }
+        ], 
+        "line_number": 22, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure onCreate(...)", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 23, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 17, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_end"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 18, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "return from a call to Object MainActivity.source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 23, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "NULL_DEREFERENCE", 
+    "file": "app/src/main/java/infer/other/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "bucket", 
+        "value": "B1"
+      }, 
+      {
+        "tag": "line", 
+        "value": "23"
+      }, 
+      {
+        "tag": "value", 
+        "value": "source()"
+      }
+    ], 
+    "line": 23, 
+    "procedure_id": "infer.other.MainActivity.onCreate(android.os.Bundle):void.fca79a92cae6cb5680c8e0e034b3452e", 
+    "procedure": "void MainActivity.onCreate(Bundle)", 
+    "qualifier": "object returned by source() could be null and is dereferenced at line 23"
+  }, 
+  {
+    "key": 457993650, 
+    "kind": "ERROR", 
+    "hash": 548269195, 
+    "severity": "HIGH", 
+    "bug_trace": [
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "void MainActivity.onCreate_1111111111111(Bundle)"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.onCreate_1111111111111(android.os.Bundle):void.9d9b9aa81db6ba5c7779a265fba08ad2"
+          }
+        ], 
+        "line_number": 26, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure onCreate_1111111111111(...)", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 27, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_start"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 17, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "start of procedure source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [
+          {
+            "tag": "kind", 
+            "value": "procedure_end"
+          }, 
+          {
+            "tag": "name", 
+            "value": "Object MainActivity.source()"
+          }, 
+          {
+            "tag": "name_id", 
+            "value": "infer.other.MainActivity.source():java.lang.Object.6ad259dd9ceead384dbc215a564682e5"
+          }
+        ], 
+        "line_number": 18, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "return from a call to Object MainActivity.source()", 
+        "level": 1
+      }, 
+      {
+        "node_tags": [], 
+        "line_number": 27, 
+        "filename": "app/src/main/java/infer/other/MainActivity.java", 
+        "description": "", 
+        "level": 0
+      }
+    ], 
+    "bug_class": "PROVER", 
+    "bug_type": "NULL_DEREFERENCE", 
+    "file": "app/src/main/java/infer/other/MainActivity.java", 
+    "qualifier_tags": [
+      {
+        "tag": "bucket", 
+        "value": "B1"
+      }, 
+      {
+        "tag": "line", 
+        "value": "27"
+      }, 
+      {
+        "tag": "value", 
+        "value": "source()"
+      }
+    ], 
+    "line": 27, 
+    "procedure_id": "infer.other.MainActivity.onCreate_1111111111111(android.os.Bundle):void.9d9b9aa81db6ba5c7779a265fba08ad2", 
+    "procedure": "void MainActivity.onCreate_1111111111111(Bundle)", 
+    "qualifier": "object returned by source() could be null and is dereferenced at line 27"
+  }, 
+  {
     "key": 457993650, 
     "kind": "ERROR", 
     "hash": 877198411, 
