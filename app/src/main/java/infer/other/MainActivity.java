@@ -37,7 +37,9 @@ protected void branch_42(Bundle savedInstanceState) {
     source().toString();
   }
 
-
+protected void branch_42_updated(Bundle savedInstanceState) {
+    source().toString();
+  }
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
