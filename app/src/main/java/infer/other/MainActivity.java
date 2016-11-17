@@ -33,6 +33,12 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
   }
 
 
+protected void branch_42(Bundle savedInstanceState) {
+    source().toString();
+  }
+
+
+
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
     source().toString();
