@@ -26,7 +26,9 @@ public class MainActivity extends ActionBarActivity {
  protected void onCreate_1111111111111(Bundle savedInstanceState) {
     source().toString();
   }
-
+protected void onCreate_b37(Bundle savedInstanceState) {
+    source().toString();
+  }
 
 protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
