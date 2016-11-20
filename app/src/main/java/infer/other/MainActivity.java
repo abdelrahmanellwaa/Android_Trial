@@ -23,6 +23,11 @@ public class MainActivity extends ActionBarActivity {
     source().toString();
   }
 
+  protected void branch_45_testing_change_of_comment_line(Bundle savedInstanceState) {
+    source().toString();
+  }
+
+
  protected void onCreate_1111111111111(Bundle savedInstanceState) {
     source().toString();
   }
@@ -34,6 +39,15 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
   }
 
+
+protected void branch_45(Bundle savedInstanceState) {
+    source().toString();
+  }
+
+
+  protected void branch_45_edited(Bundle savedInstanceState) {
+    source().toString();
+  }
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
