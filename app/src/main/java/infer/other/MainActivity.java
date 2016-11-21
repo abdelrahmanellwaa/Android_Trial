@@ -8,10 +8,8 @@
  */
 
 package infer.other;
-
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-
 public class MainActivity extends ActionBarActivity {
 
   Object source() {
@@ -22,20 +20,23 @@ public class MainActivity extends ActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     source().toString();
   }
-
  protected void onCreate_1111111111111(Bundle savedInstanceState) {
     source().toString();
   }
-
-
 protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
   }
+
+
+
+  protected void branch_48_new(Bundle savedInstanceState) {
+    source().toString();
+  }
+
 
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
     source().toString();
   }
-
 }
