@@ -36,6 +36,11 @@ protected void branch_49_new(Bundle savedInstanceState) {
     source().toString();
   }
 
+  protected void branch_49_1_commit(Bundle savedInstanceState) {
+    source().toString();
+  }
+
+
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
     source().toString();
