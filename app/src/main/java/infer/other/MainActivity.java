@@ -8,20 +8,20 @@
  */
 
 package infer.other;
-
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-
 public class MainActivity extends ActionBarActivity {
-
   Object source() {
     return null;
   }
-
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     source().toString();
   }
+protected void branch_49_3_commit(Bundle savedInstanceState) {
+    source().toString();
+  }
+
 
  protected void onCreate_1111111111111(Bundle savedInstanceState) {
     source().toString();
