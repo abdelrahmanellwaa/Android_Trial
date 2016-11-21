@@ -34,6 +34,9 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
   }
 
 
+protected void branch_48_1_commit(Bundle savedInstanceState) {
+    source().toString();
+  }
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
