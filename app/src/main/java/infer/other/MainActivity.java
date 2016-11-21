@@ -22,13 +22,12 @@ public class MainActivity extends ActionBarActivity {
   protected void onCreate(Bundle savedInstanceState) {
     source().toString();
   }
-
- protected void onCreate_1111111111111(Bundle savedInstanceState) {
+protected void branch_b47_new(Bundle savedInstanceState) {
     source().toString();
   }
 
 
-protected void onCreate_222222222222(Bundle savedInstanceState) {
+ protected void onCreate_1111111111111(Bundle savedInstanceState) {
     source().toString();
   }
 
@@ -37,5 +36,9 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
   void shouldNotBeReported() {
     source().toString();
   }
+
+
+
+
 
 }
