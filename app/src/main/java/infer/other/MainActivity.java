@@ -34,6 +34,19 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
   }
 
+protected void branch_50_new(Bundle savedInstanceState) {
+    source().toString();
+  }
+
+
+
+//4234252dfw
+  //43423
+
+protected void branch_50_commit_1(Bundle savedInstanceState) {
+    source().toString();
+  }
+
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
