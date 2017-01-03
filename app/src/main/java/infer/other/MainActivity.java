@@ -34,6 +34,10 @@ protected void onCreate_222222222222(Bundle savedInstanceState) {
     source().toString();
   }
 
+  protected void function_violation(Bundle savedInstanceState) {
+    source().toString();
+  }
+
 
   @SuppressWarnings("infer")
   void shouldNotBeReported() {
